@@ -15,7 +15,7 @@ function sum() {
 
 function takeAway() {
     let a = prompt('Из чего вычитаем?');
-    let b = prompt('Что вычитаем?');
+    let b = prompt('Сколько вычитаем?');
     let result = Number(a) - Number(b);
     alert(`Получилось ${result}`);
 }
