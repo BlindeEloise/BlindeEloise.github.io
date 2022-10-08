@@ -5,35 +5,35 @@ alert(`Привет, ${name}!`);
 // sum
 
 function sum() {
-    let a = prompt('Напишите первое слагаемое');
-    let b = prompt('Напишите второе слагаемое');
+    let a = prompt('Напишите первое число');
+    let b = prompt('Напишите второе число');
     let result = Number(a) + Number(b);
-    alert(`Сумма равна ${result}`);
+    alert(`Получилось ${result}`);
 }
 
 // take away 
 
 function takeAway() {
-    let a = prompt('Напишите уменьшаемое');
-    let b = prompt('Напишите вычитаемое');
+    let a = prompt('Из чего вычитаем?');
+    let b = prompt('Что вычитаем?');
     let result = Number(a) - Number(b);
-    alert(`Разность равна ${result}`);
+    alert(`Получилось ${result}`);
 }
 
 // multiply
 
 function multiply() {
-    let a = prompt('Напишите первый множитель');
-    let b = prompt('Напишите второй множитель');
+    let a = prompt('Что умножаем?');
+    let b = prompt('На какое число умножаем?');
     let result = Number(a) * Number(b);
-    alert(`Произведение равно ${result}`);
+    alert(`Получилось ${result}`);
 }
 
 // divide
 
 function divide() {
-    let a = prompt('Напишите делимое');
-    let b = prompt('Напишите делитель');
+    let a = prompt('Что нужно разделить?');
+    let b = prompt('На какое число делить?');
     let result = Number(a) / Number(b);
-    alert(`Частное равно ${result}`);
+    alert(`Получилось ${result}`);
 }
