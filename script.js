@@ -1,39 +1,35 @@
-let name = prompt('Как тебя зовут?');
-
-alert(`Привет, ${name}!`);
-
 // sum
 
 function sum() {
-    let a = prompt('Напишите первое число');
-    let b = prompt('Напишите второе число');
-    let result = Number(a) + Number(b);
-    alert(`Получилось ${result}`);
+    let numberOneInput = document.getElementById('numberOneSum').value;
+    let numberTwoInput = document.getElementById('numberTwoSum').value;
+    let result = Number(numberOneInput) + Number(numberTwoInput);
+    resultSum.value = result;
 }
 
 // take away 
 
 function takeAway() {
-    let a = prompt('Из чего вычитаем?');
-    let b = prompt('Сколько вычитаем?');
-    let result = Number(a) - Number(b);
-    alert(`Получилось ${result}`);
+    let numberOneInput = document.getElementById('numberOneMinus').value;
+    let numberTwoInput = document.getElementById('numberTwoMinus').value;
+    let result = Number(numberOneInput) - Number(numberTwoInput);
+    resultMinus.value = result;
 }
 
 // multiply
 
 function multiply() {
-    let a = prompt('Что умножаем?');
-    let b = prompt('На какое число умножаем?');
-    let result = Number(a) * Number(b);
-    alert(`Получилось ${result}`);
+    let numberOneInput = document.getElementById('numberOneMultiply').value;
+    let numberTwoInput = document.getElementById('numberTwoMultiply').value;
+    let result = Number(numberOneInput) * Number(numberTwoInput);
+    resultMultiply.value = result;
 }
 
 // divide
 
 function divide() {
-    let a = prompt('Что нужно разделить?');
-    let b = prompt('На какое число делить?');
-    let result = Number(a) / Number(b);
-    alert(`Получилось ${result}`);
+    let numberOneInput = document.getElementById('numberOneDivide').value;
+    let numberTwoInput = document.getElementById('numberTwoDivide').value;
+    let result = Number(numberOneInput) / Number(numberTwoInput);
+    resultDivide.value = result;
 }
